@@ -74,12 +74,99 @@ else:
 
 print("El programa ha finalizado")
 
+# Parte 3
+
+edad = 7
+if edad < 100:
+    print("Edad es correcta")
+else:
+    print("Edad incorrecta")
 
 
+edad3 = -7
+if edad3 < 100:
+    print("Edad es correcta")
+else:
+    print("Edad incorrecta")
 
 
+edad4 = -7
+if 0< edad4 < 100:
+    print("Edad es correcta")
+else:
+    print("Edad incorrecta")
+
+# AND y OR:
+## AND = y si además
+## OR = o si no
+
+# Distancia > 40km
+# Nº Hermanos > 2
+# Salario familiar <= 20000
+
+print("Programa de becas")
+
+dist_escuela = int(input("Introduce la dist a la escuela:"))
+print(dist_escuela)
+
+num_hermanos = int(input("Introduce el nº de hermanos en el centro:"))
+print(num_hermanos)
+
+salario_familiar = int(input("Introduce el salario familiar:"))
+print(salario_familiar)
+
+if dist_escuela > 40 and num_hermanos > 2 and salario_familiar <= 20000:
+    print("Beca")
+else:
+    print("No beca")
 
 
+# así tiene más sentido
 
+print("Programa de becas")
+
+dist_escuela = int(input("Introduce la dist a la escuela:"))
+print(dist_escuela)
+
+num_hermanos = int(input("Introduce el nº de hermanos en el centro:"))
+print(num_hermanos)
+
+salario_familiar = int(input("Introduce el salario familiar:"))
+print(salario_familiar)
+
+if dist_escuela > 40 and num_hermanos > 2 or salario_familiar <= 20000: # Si tiene salario bajo cuenta tb
+    print("Beca")
+else:
+    print("No beca")
+
+# Por último:
+
+print("Asignaturas optativas")
+
+print("Asignaturas optativas: Informática - Pruebas de Software - Usabilidad")
+
+asignatura = input("Escribe la asignatura escogida:")
+
+if asignatura in ("Informática", "Pruebas de Software", "Usabilidad"):
+    # Siempre con comas aunque sean numéricos, comillas solo en str
+    print("Asignatura elegida" + asignatura) # No se pone función str pq ya es un str
+else:
+    print("La asginatura elegida no está contemplada")
+
+# Python distingue mayus y minus, pa que de igual en el programa usamos lower() pa minus y upper() pa mayus
+
+print("Asignaturas optativas")
+
+print("Asignaturas optativas: Informática - Pruebas de Software - Usabilidad")
+
+optativa = input("Escribe la asignatura escogida:")
+
+asignatura = optativa.lower() # tb se podría poner upper() y ponerlo to en mayus  en el if de abajo
+
+if asignatura in ("informática", "pruebas de software", "usabilidad"):
+    # Siempre con comas aunque sean numéricos, comillas solo en str
+    print("Asignatura elegida" + asignatura) # No se pone función str pq ya es un str
+else:
+    print("La asginatura elegida no está contemplada")
 
 
