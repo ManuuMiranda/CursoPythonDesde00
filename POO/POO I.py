@@ -49,7 +49,7 @@ print("El coche tiene", miCoche.ruedas, "ruedas")
 miCoche.arrancar()  # Sería lo mismo que poner miCoche.enmarcha=True
 print(miCoche.estado())
 
-# En este programa hemos introducido 4 propiedades y 2 comportamientos (metodos)
+# En este programa hemos introducido 4 propiedades y 2 comportamientos (metodos), en POO II profundizamos
 
 
 
