@@ -61,8 +61,9 @@ class Moto(Vehiculos):
         # lo voy a hacer así para caer en la cuenta de ello
 
 
-class VElectricos():
-    def __init__(self):
+class VElectricos(Vehiculos):  # Ponemos vehículos entre paréntesis para añadir el super
+    def __init__(self, marca:str, modelo : str):
+        super().__init__(marca, modelo)
         self.autonomia = 100
 
     def cargarEnergia(self):
@@ -93,7 +94,10 @@ class BicicletaElectrica(VElectricos, Vehiculos):  # Doble herencia/multiple, co
     pass
 
 
-miBici = BicicletaElectrica()  # Coge los parámetros de la primera clase que cojas, en este caso VElecticos, y por ello
+#miBici = BicicletaElectrica()  # Coge los parámetros de la primera clase que cojas, en este caso VElecticos, y por ello
 # no ponemos argumentos dentro, si lo hicieramos al reves habría que poner marca y modelo
 """Básicamente cogerá el método init de la primera clase, VElectricos, podríamos repetir el init de Vehiculos tb para
    solucionarlo pero no es muy elegante, mejor utilizar funciñon super"""
+# Con el super ya podemos poner marca y modelo
+
+miBici = BicicletaElectrica("Orbea", "Rallon")
