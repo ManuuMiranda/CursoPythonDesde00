@@ -31,7 +31,7 @@ print("El nombre es", nombreUsuario.upper())
 
 print("El nombre es:", nombreUsuario.lower())
 
-print("El nombre es:", nombreUsuario.capitalize()) # Funciona pongas to en mayus o to en minus
+print("El nombre es:", nombreUsuario.capitalize())  # Funciona pongas to en mayus o to en minus
 
 
 edad = input("Introduce tu edad:")
