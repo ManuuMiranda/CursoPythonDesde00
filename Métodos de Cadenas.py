@@ -72,3 +72,5 @@ if arroba != 1 or mailUser.rfind('@') == len(mailUser)-1 or mailUser.find('@') =
     print("Mail incorrecto")
 else:
     print("Mail correcto")
+
+
