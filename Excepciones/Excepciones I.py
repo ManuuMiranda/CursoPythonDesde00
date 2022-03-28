@@ -2,6 +2,9 @@
 ## ejecución ha ocurrido "algo inesperado", catastrófico en programas grandes
 ## Para que se ejecuten las lineas que van despues de ese error
 
+# Construcción:
+#try-except-else-finally, todas opcionales menos el try.
+
 def suma(num1, num2):
     return num1 + num2
 
