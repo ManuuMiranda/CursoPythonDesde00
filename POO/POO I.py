@@ -40,7 +40,7 @@ class Coche():  # Primera letra en mayus siempre en clases
             return "El coche está en marcha"
         else:
             return "El coche está parado"
-# Por ahora solo hemos construido la clase
+# Por ahora solo hemos construido la clase, nada más
 
 miCoche = Coche()  # Ya hemos creado el primer objeto, hemos instanciado la clase
 
