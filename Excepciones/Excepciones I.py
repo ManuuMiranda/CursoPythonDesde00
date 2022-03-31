@@ -52,7 +52,7 @@ print("Operación ejecutada. Continuación de ejecución del programa")
 
 
 
-# Ahora con más sentido, sin que pida operación a realizar tras poner un string (value error)
+# Ahora con más sentido, sin que pida "operación a realizar" tras poner un string (value error)
 
 def suma(num1, num2):
     return num1 + num2
