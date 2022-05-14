@@ -20,13 +20,15 @@ for i in nombre:
 print(contador)
 
 while True:
-    pass # Sirve para que no se ejecute al realizar el código
+    pass  # Sirve para que no se ejecute al realizar el código
+
 
 class Clase:
     pass  # Sirve para que no se ejecute al realizar el codigo, como pa completar mas tarde
 
-def definicion:
-    pass # Sirve para que no se ejecute al realizar el codigo, como pa completar mas tarde
+
+def definicion():
+    pass  # Sirve para que no se ejecute al realizar el codigo, como pa completar mas tarde
 
 
 
