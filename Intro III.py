@@ -115,7 +115,8 @@ t = 12345, 54321, 'hello!'
 # Unpacking
 x, y, z = t
 tuple([1, 2, 3])
-
+tuple([x, y, z])
+# tuple(x, y, z) daría error
 
 """
 The range type represents another way of creating an an immutable sequence of numbers and is commonly 
