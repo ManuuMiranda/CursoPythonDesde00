@@ -9,7 +9,7 @@ frame.pack()
 label = Label(frame, text="TusMuertos")
 label.place(x=50, y=150)
 
-imagen = PhotoImage(file ="Label Parametros Tipicos.png")
+imagen = PhotoImage(file="Label y Entry Parametros Tipicos.png")
 Label(frame, image=imagen).place(x=0, y=50)
 
 """ También se puede hacer sin poner variables: """
