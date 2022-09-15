@@ -45,11 +45,13 @@ def suma(num):
     resultado += float(num)
     # IGUAL QUE PONER: resultado = resultado + float(num)
     numPantalla.set(resultado)
+    resetearPantalla = True
 
 
 """----------------Función Resta------------------"""
 num1 = 0
 cont_resta = 0
+
 
 def resta(num):
     global operacion
@@ -79,6 +81,7 @@ def resta(num):
 
 
 cont_multi = 0
+
 
 def multiplicacion(num):
     global operacion
@@ -146,6 +149,7 @@ def igual():
 
     if operacion == "suma":
         numPantalla.set(resultado + float(numPantalla.get()))
+        # Debe salir lo que hay almacenado en resultado más lo que esté ahora en pantalla (último número que se suma)
         resultado = 0
 
     elif operacion == "resta":
