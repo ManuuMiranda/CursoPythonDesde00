@@ -64,6 +64,7 @@ def funcionbotoncito():
     nombre.set("Manueh")  # 'nombre' hay que definirlo arriba por el flujo de ejecución
     # Al darle a enviar pone automaticamente el nombre 'Manueh'
 
+
 botoncitoenvio = Button(raiz, text="Enviar", command=funcionbotoncito)
 botoncitoenvio.pack()
 # Si fuese en el frame y no en la raiz habría que usar .grid y meterlo en una row y col

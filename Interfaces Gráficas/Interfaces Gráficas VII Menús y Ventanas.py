@@ -56,13 +56,11 @@ archivo_ayuda = Menu(barra_menu, tearoff=0)
 archivo_ayuda.add_command(label="Licencia", command=aviso_licencia)
 archivo_ayuda.add_command(label="Acerca de", command=info_adicional)
 
+
+
 barra_menu.add_cascade(label="Archivo", menu=archivo_menu)
 barra_menu.add_cascade(label="Edición", menu=archivo_edicion)
 barra_menu.add_cascade(label="Herramientas", menu=archivo_herramientas)
 barra_menu.add_cascade(label="Ayuda", menu=archivo_ayuda)
-
-
-
-
 
 root.mainloop()
