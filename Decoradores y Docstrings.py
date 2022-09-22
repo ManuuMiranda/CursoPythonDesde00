@@ -71,3 +71,17 @@ sumu(7, 5, 8)
 rest(12, 10)
 
 potencia(base=5, exponente=3)  # para eso sirve el kwargs, si no no podría hacer la potencia
+
+"""--------------Docstring Data-------------------------------------------------------------------------------"""
+
+
+def areacuadrado(lado):
+
+    """ Calula el área de un cuadrado elevando al cuadrado el lado pasado por el parámetro
+    :return resultado """
+    return "El área del cuadrado es: " + str(lado*lado)
+
+
+print(areacuadrado.__doc__)
+print(areacuadrado(5))
+help(areacuadrado)
