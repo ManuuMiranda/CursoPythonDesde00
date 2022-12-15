@@ -13,7 +13,8 @@ def areatriangulo(base, altura):
 
     >>> areatriangulo(9,3)
     'El área del triángulo es: 13.5'
-
+    >>> areatriangulo(9,3)
+    'El área del triángulo es: 10'
     """
 
     return f'El área del triángulo es: {(base*altura)/2}'
