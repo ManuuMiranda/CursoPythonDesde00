@@ -21,3 +21,5 @@ print(threading.activeCount())  # We get 2 or 4 with the console, the main and t
 time.sleep(0.9)  # As sleep is less than the 1 sec sleeps it prints it before 'done'
                 # If this sleep was bigger it would print 'done' first
 print('finally')
+
+threading.current_thread().getName()  # Para saber el nombre del thread que se está ejecutando
